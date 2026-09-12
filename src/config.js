@@ -80,18 +80,28 @@ if (!hexColorPattern.test(EMBED_COLOR_RAW)) {
  */
 function WELCOME_MESSAGE(member) {
   return (
-    `🎉 Welcome to the server, ${member}!\n` +
-    `Feel free to roam around and make yourself at home! 🏠\n` +
-    `🤖 We've got some bots to have fun with\n` +
-    `🎵 VC channels to listen to music\n` +
-    `🎬 Watch parties to enjoy with everyone\n` +
-    `🎉 Events happening regularly\n` +
-    `🔔 Get yourself the notification tags that you like\n` +
-    `🏆 We've also got a few competitions going on:\n` +
-    `🚗 Stewardle\n` +
-    `🟩 Wordle\n` +
-    `🏁 Hotlaps\n\n` +
-    `Have fun, meet new people, and enjoy your stay! ❤️`
+    `🎉 Welcome to the server, <@${member.id}>!!
+
+Feel free to roam around and make yourself at home! 🏠
+
+🤖 We’ve got some bots to have fun with
+🎵 VC channels to listen to music
+🎬 Watch parties to enjoy with everyone
+🎉 Events happening regularly
+
+
+🔔 Get yourself the notification tags that you like
+
+
+🏆 We’ve also got a few competitions going on:
+
+🚗 Stewardle
+🟩 Wordle
+🏁 Hotlaps
+
+🚨DO NOT SWEAR🚨
+(You will recieve warnings and even timeouts if you do so.)
+Have fun, meet new people, and enjoy your stay! ❤️`
   );
 }
 
