@@ -3,8 +3,7 @@
 A Node.js + discord.js v14 bot that welcomes new members the moment they
 join the server, using Discord's own `guildMemberAdd` event.
 
-This is a simpler, fully reliable replacement for parsing another bot's
-(e.g. Carl-bot's) welcome messages: `guildMemberAdd` is Discord's own
+This is a simpler, fully reliable  welcome messages: `guildMemberAdd` is Discord's own
 authoritative "this exact member just joined" event, so there's no
 ambiguity about identity and no dependency on any other bot's message
 format.
