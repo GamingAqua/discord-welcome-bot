@@ -5,8 +5,7 @@ join the server, using Discord's own `guildMemberAdd` event.
 
 This is a simpler, fully reliable  welcome messages: `guildMemberAdd` is Discord's own
 authoritative "this exact member just joined" event, so there's no
-ambiguity about identity and no dependency on any other bot's message
-format.
+ambiguity about identity.
 
 ---
 
